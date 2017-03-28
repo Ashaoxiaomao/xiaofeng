@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>我的</title>
+	<title>邵小峰的个人简历</title>
 	<link rel="stylesheet" type="text/css" href="./css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/jquery.eeyellow.Timeline.css">
 </head>
 <body>
 	<main>
@@ -21,7 +23,6 @@
 					<li>MYSQL</li>
 					<li>JS</li>
 					<li>HTML5</li>
-					<li>CSS3</li>
 				</ul>
 			</div><!--conten-->
 		</div><!--home-->
@@ -32,6 +33,7 @@
 					<ul>
 						<li><a class="goto" href="#con-1">首页</a></li>
 						<li><a class="goto" href="#con-2">基本资料</a></li>
+						<li><a class="goto" href="#con-5">工作经历</a></li>
 						<li><a class="goto" href="#con-3">我会什么</a></li>
 						<li><a class="goto" href="#con-4">项目经验</a></li>
 					</ul>
@@ -39,7 +41,6 @@
 			</div>
 			<div class="data">
 				<h1>基本资料</h1>
-				<hr />
 				<P>
 					自我学习能力强，对新技术有强烈的好奇心，总是第一时间丰富和提升自己。善于分析问题和解决问题，工作细心。性格开朗，能很好的融入大集体中，工作中善于沟通交流，保证工作效率，注重团队合作.
 				</P>
@@ -70,9 +71,97 @@
 				</div>
 			</div>
 		</div><!--content-1-->
-		<div class="content-2" id="con-3">
+		<div class="content-2" id="con-5">
+			<h1>工作经历</h1>
+			<div class="container">
+			  <div class="row">
+			    <div class="col-md-12">
+			      <div class="VivaTimeline">
+			        <dl>
+			          <dt>2017 2月</dt>
+			          <dd class="pos-left clearfix">
+			          <div class="circ"></div>
+			              <div class="time">Feb</div>
+			              <div class="events">
+			                    <div class="events-header">中药管理系统</div>
+			                    <div class="events-body">
+			                          <div class="row">		
+			                                <div class="events-desc">
+			                                  ......
+			                                </div>
+			                          </div>
+			                          <div class="row">
+			                              <div class="events-desc">
+			                                  ......
+			                              </div>
+			                          </div>
+			                    </div>
+			                    <div class="events-footer">
+			                        主要功能：医生处方、药品进销存管理。<br/>主要工作：业务流程分析，表结构分析，数据表创建，医生开具、查询、复用、撤销处方，以及设置和管理经验处方，基础数据维护，药房药库药品的进销存管理。<br/>
+								我的工作：业务流程分析，分析结构，建表。用户创建，登录验证，医生处方相关业务。药库采购、退换药品，库存管理等。								
+			                    </div>
+			              </div>
+			          </dd>
+			          <!-- 其它时间节点 -->
+			          <dt>2016 12</dt>
+			          <dd class="pos-right clearfix">
+			          <div class="circ"></div>
+			              <div class="time">Dec</div>
+			              <div class="events">
+			                    <div class="events-header">BBS论坛</div>
+			                    <div class="events-body">
+			                          <div class="row">
+			                                <div class="events-desc">
+			                                  ......
+			                                </div>
+			                          </div>
+			                          <div class="row">
+			                              <div class="events-desc">
+			                                  ......
+			                              </div>
+			                          </div>
+			                    </div>
+			                    <div class="events-footer">
+			                      主要工作：包含了数据库建表，论坛主页面、登录注册窗口、发帖，回帖，回复，删帖，顶贴等。
+							<br/>
+								使用到的工具：
+								ThinkPHP框架，开发工具包括WampServer、Sublime Text、MySQL。<br/>
+			                    </div>
+			              </div>
+			          </dd>
+			          <dt>2016 10</dt>
+			          <dd class="pos-left clearfix">
+			          <div class="circ"></div>
+			              <div class="time">Oct</div>
+			              <div class="events">
+			                    <div class="events-header">Keep健身</div>
+			                    <div class="events-body">
+			                          <div class="row">
+			                                <div class="events-desc">
+			                                  ......
+			                                </div>
+			                          </div>
+			                          <div class="row">
+			                              <div class="events-desc">
+			                                  ......
+			                              </div>
+			                          </div>
+			                    </div>
+			                    <div class="events-footer">
+			                     采用HTML5/CSS3，用React布局制作的Keep健身教练网站。实时获取数据进行页面渲染。同时还使用了Webpack自动打包技术，自动打包文件，刷新页面，非常方便高效。
+			                    </div>
+			              </div>
+			          </dd>		          
+			        </dl>
+			      </div>
+			    </div>
+			  </div>
+			</div>  <!-- work exp container -->
+		</div>
+		
+		 <!-- work exp container -->
+		<div class="content-3" id="con-3">
 			<h1>我会什么</h1>
-			<hr/>
 			<div class="seilled">
 				<div>
 					<canvas width="200" height="200"></canvas>
@@ -102,20 +191,19 @@
 				<div>
 					<canvas width="200" height="200"></canvas>
 					<p></p>
-					<span>CSS3</span>
-					<p>熟悉css3新增的样式以及选择器</p>
+					<span>ThinkPHP</span>
+					<p>熟悉ThinkPHP框架及其内置函数</p>
 				</div>
 				<div>
 					<canvas width="200" height="200"></canvas>
 					<p></p>
 					<span>代码编辑器</span>
-					<p>平时用Webstorm Sublime Text这2款代码编辑器功能强大有丰富的组件提高工作效率</p>
+					<p>平时用Sublime Text这款代码编辑器功能强大有丰富的组件提高工作效率</p>
 				</div>
 			</div><!--seilled-->
-		</div><!--content-2-->
-		<div class="content-3" id="con-4">
+		</div><!--content-3-->
+		<div class="content-4" id="con-4">
 			<h1>项目经验</h1>
-			<hr/>
 			<div class="itemsInfo">
 				<h2>中药管理系统</h2>
 				<span>主要负责后端开发</span>
@@ -151,10 +239,14 @@
 	            <h3>我的工作：</h3>
 	            <p>负责后端功能的开发，实现与用户的友好交互。</p>
 			</div><!--itmesInfo-->
-		</div><!--content-3-->
-		<div class="content-4"></div>
+		</div><!--content-4-->
+		<div class="heng">
+			别想骗我写前端~哼哼哼!!!
+		</div>
 	</main>	
 	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" srt="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.eeyellow.Timeline.js"></script>
 	<script type="text/javascript" src="./js/zheshijs.js"></script>
 </body>
 </html>

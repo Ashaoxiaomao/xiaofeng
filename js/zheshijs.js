@@ -1,5 +1,5 @@
 var content_1 = document.querySelector(".content-1");
-var content_2 = document.querySelector(".content-2");
+var content_2 = document.querySelector(".content-3");
 var bodyH = document.body.clientHeight; //拿到屏幕可见高度
 var nav = document.querySelector("nav");		
 var loops = $("canvas");
@@ -15,7 +15,7 @@ window.onscroll = function(){
 		nav.style.position = "";	
 	}
 	if (top_ < (bodyH - 150) && a){
-		var arr = [90,80,80,75,75,100]
+		var arr = [90,80,80,75,80,100]
 		loops.map(function(key,val){
 			yh(arr[key],val,ps[key]);	
 		})

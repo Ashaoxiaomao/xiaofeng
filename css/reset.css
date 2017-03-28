@@ -57,7 +57,7 @@ nav{
 	background-repeat: no-repeat;
 	background-color: #fcfaf6;
 	box-shadow: 2px 1px 10px 2px #000;/*阴影   偏移右  偏移下  发散  浓度*/
-	z-index: 1;
+	z-index: 201;
 }
 nav ul,li{
 	width: 12%;
@@ -223,6 +223,7 @@ nav img{
 	display: block;
 	width: 100px;
 	height: 100px;
+	line-height: 100px;
 	margin: 5px;
 	text-align: center;
 	background-color: #cecece;
@@ -233,13 +234,6 @@ nav img{
 	text-align: center;
 	margin: 40px 0 ;
 }
-hr{
-	width: 60px;
-	height: 2px;
-	background-color: red;
-	margin: 30px 0 ;
-	margin: auto;
-}
 .content-1 p{
 	width: 100%;
 	font-size: 20px;
@@ -249,37 +243,48 @@ hr{
 	margin: 0 0 10px 0;
 }
 .content-2{
-	height: 110%;
-	padding-top: 40px;
+	height: 125%;
+    padding-top: 40px;
+    background-color: #bbb;
 }
 .content-2 h1{
+	font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+}
+.content-3{
+	height: 125%;
+	padding-top: 40px;
+}
+.content-3 h1{
 
 	font-weight: 800;
 	font-size: 40px;
 	text-align: center;
 	margin: 40px 0 ;
 }
-.content-2 .seilled{
+.content-3 .seilled{
 	width: 80%;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-.content-2 .seilled div{
+.content-3 .seilled div{
 	width: 30%;
 	text-align: center;
 }
-.content-2 .seilled span{
+.content-3 .seilled span{
 	font-size: 25px;
 	font-weight: 500;
 	margin: 20px 0;
 }
-.content-2 .seilled div canvas{
+.content-3 .seilled div canvas{
 	display: block;
 	margin: auto;
 }
-.content-2 .seilled div p:nth-child(2){
+.content-3 .seilled div p:nth-child(2){
 	opacity: 0.6;
 	font-size: 40px;
 	font-weight: 900;
@@ -287,30 +292,34 @@ hr{
 	position: relative;
 	top: -120px;
 }
-.content-2 .seilled div p:nth-child(4){
+.content-3 .seilled div p:nth-child(4){
 	opacity: 0.7;
 	font-size: 20px;
 	margin: 20px 0 0 0;
 }
-.content-3{
-	height: 150%;	
+.content-4{
+	height: 160%;	
 	padding-top: 40px;
+    background-color: #bbb;
 }
-.content-3 h1{
+.content-4 h1{
 	text-align: center;
 	font-weight: 800;
 	font-size: 40px;
 	margin: 40px 0 ;
 }
-.content-3 .itemsInfo{
+.content-4 .itemsInfo{
 	width: 80%;
 	margin: auto;	
 	margin-top: 20px;
 }
-.content-3 .itemsInfo p{
+.content-4 .itemsInfo p{
 	display: block;
 	margin: 5px 0;
 }
-.content-4{
-
+.heng{
+	height: 10%;
+	width: 100%;
+	font-size: 1px;
+	text-align: center;
 }
